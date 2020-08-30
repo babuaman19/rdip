@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      li a:hover {
+        background-color: #111;
+      }
+      table {
+        font-family: arial, sans-serif;
+        border: 1px solid black;
+        border-spacing: 0px;
+        height: 200px;
+        width: 100%;
+      }
+      #tbldv {
+        width: 50%;
+      }
+      td,
+      th {
+        border: 1px solid black;
+        text-align: center;
+        padding: 8px;
+      }
+      .mgin40 {
+        margin-top: 40px;
+      }
+      .mgin20 {
+        margin-top: 20px;
+      }
+      .ml5 {
+        margin-left: 5px;
+      }
+
+      img {
+        height: 200px;
+      }
+
+      .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      #logo img {
+        height: 90px;
+      }
+
+      #link {
+        padding: 20px 5px 20px 0;
+        font-size: xx-large;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div id="logo">
+        <a href="https://www.iiit.ac.in/">
+          <img src="https://www.iiit.ac.in/img/iiit-new.png" alt="" />
+        </a>
+      </div>
+      <div id="link">
+        <a href="https://serc.iiit.ac.in/rdip">RDIP</a>
+      </div>
+    </div>
+    <ul>
+      <li><a href="homepage.html">Home</a></li>
+      <li><a href="registration.html">Registeration Form</a></li>
+    </ul>
+
+    <div class="ml5">
+      <h1 class="mgin40">My Details</h1>
+      <div class="container mgin20">
+        <div id="tbldv">
+          <table>
+            <tr>
+              <th>Name</th>
+              <td>Babu Aman Singh</td>
+            </tr>
+            <tr>
+              <th>College</th>
+              <td>New Horizon College Of Engineering</td>
+            </tr>
+            <tr>
+              <th>Reason</th>
+              <td>Learn  relative skills and gain real time experience</td>
+            </tr>
+          </table>
+        </div>
+        <div>
+          <img src="C:\Users\AMAN\Dropbox\My PC (LAPTOP-K3QKQ8QO)\Downloads\aman_pic.jpeg" alt="" />
+        </div>
+      </div>
+      <div class="mgin40">
+        <p>
+          RDIP is one month internship program and open to all students who are pursuing or have
+          completed graduation with willingness to IIIT SERC internship program. The program provides
+          resources and mentoring mechanism to learn and contribute to open source projects on Github.
+        </p>
+
+        <p class="mgin40">
+          In the first week , we learnt how to build responsive websites and
+          user interfaces with modern HTML5 and CSS3+ technology. we also learnt about
+          git and github.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
